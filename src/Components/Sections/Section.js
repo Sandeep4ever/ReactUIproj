@@ -47,7 +47,7 @@ export default Section;
 
 const Wrap = styled.div`
   width: 100vw;
-  height: 90vh;
+  height: 85vh;
   background-image: url("https://d2j4tkbto6uvqv.cloudfront.net/kalpataru/6130d8e089331.jpg");
   background-size: cover;
   background-position: center;
@@ -69,22 +69,23 @@ const Wrap = styled.div`
 
     
     h1{
-      padding-bottom:5px;
+      padding-bottom:0px;
     }
   }
 `;
 
 const Section2 = styled.div`
   display: flex;
-  align-items: center;
+  ${'' /* align-items: center; */}
   justify-content: center;
   font-size: 1.3em;
   padding:0 80px;
   color: #001111;
   div{
-    width: 20%;
+    ${'' /* width: 20%; */}
+    margin-top:20px;
     display:flex;
-    align-items:center;
+    ${'' /* align-items:center; */}
     justify-content:center;
     font-size: 0.843em;
     font-family: 'Roboto', sans-serif;
@@ -94,6 +95,7 @@ const Section2 = styled.div`
 
     img{
       width:15px;
+      height:20px;
       margin-right:10px;
       color:#727171;
 

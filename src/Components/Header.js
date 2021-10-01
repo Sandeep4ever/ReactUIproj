@@ -55,9 +55,9 @@ right:0;
 
 a{
   text-decoration:none;
-  ${'' /* color:#000; */}
   font-weight:500;
   text-transform: uppercase;
+  
 }
 
 `
@@ -66,13 +66,11 @@ const Menu =styled.div`
 
 a{
   text-decoration:none;
-  ${'' /* color:#000; */}
   text-transform: uppercase;
   margin:0 1.5rem;
 }
 `
 const CustomMenu =styled(MenuIcon)`
-${'' /* color:#000; */}
 font-size:3em;
 cursor:pointer;
 

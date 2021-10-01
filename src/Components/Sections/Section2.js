@@ -31,7 +31,7 @@ const Section2 = () => {
          <CustomText>
         <div>
         <Fade right big cascade>
-        <h1>Kalpataru Avante</h1>
+        <h1>KALPATARU AVANTE</h1>
         </Fade>
 
          <h2>After the success of its first completed project, Kalpataru

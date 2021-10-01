@@ -1,25 +1,17 @@
-import React,{useEffect,useRef} from 'react'
+import React from 'react'
 import styled from 'styled-components'
+import Bounce from 'react-reveal/Bounce';
 
-const Location = () => {
-  const overviewRef=useRef(null);
-  useEffect(()=>{
-    document.addEventListener("scroll", () => {
-      if(window.scrollY > 600){
-        overviewRef.current.classList.add('animate__backInRight');
-      }
-      else{
-        overviewRef.current.classList.remove('animate__backInRight');
-      }
-  });
-  },[])
-
+const Location = () => { 
   return (
     <>
       <LocationSection>
        <AnimationLocation>  
        <h1>04 Location </h1>
-       <h2 className="animate__animated" ref={overviewRef}>Location</h2>
+       <Bounce right cascade>
+
+       <h2 >Location</h2>
+       </Bounce>
        </AnimationLocation>
        <Imagelocation>
          <img src="https://d2j4tkbto6uvqv.cloudfront.net/kalpataru/1630591463.jpg" alt="" />
